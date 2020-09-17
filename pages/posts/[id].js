@@ -1,5 +1,6 @@
-import head from "next/head";
+import Head from "next/head";
 import Layout from "../../components/layout";
+import Date from "../../components/date";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
 export default function Post({ postData }) {
